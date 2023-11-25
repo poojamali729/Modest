@@ -1,88 +1,110 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:  Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
-header{
+
+header {
     position: relative;
     width: 100%;
     height: 60px;
     top: 0;
     left: 0;
-    padding: 30px 100px;
+    /* padding-left: 10px ; */
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #0C090A;
-    
+
 }
-header ul{
+
+.logo {
+    padding-left: 12%;
+}
+
+header ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-header ul li{
+
+header ul li {
     list-style: none;
     margin-left: 10px;
-    
+
 }
-header ul li a{
+
+header ul li a {
     text-decoration: none;
-    padding: 4px 8px;
+    padding: 4px 10px;
+    margin: auto;
     color: #fff;
-    border-radius: 10px;
+    border-radius: 7px;
     font-size: 12px;
     background: transparent;
-    
+
 }
-header ul li a:hover{
+
+header ul li a:hover {
     border: 1px solid #fff;
     color: #fff;
 }
 
-header ul li a.active{
+header ul li a.active {
     border: 2px solid #068b75;
-   color: #068b75;
-    /* color: #fff; */
+    color: #068b75;
+
 }
-.banner{
+
+.banner {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0,0,0,0.75)), url(../images/pic.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../images/pic.png);
     background-position: center;
     background-size: cover;
     text-align: left;
 }
+
 .text-box {
-    width: 90%;
+    width: 100%;
     color: #fff;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-align: center; 
-    
+    text-align: center;
+    margin-top: 50px;
+
 }
- .text-box h1{
-   font-size: 30px;
-   color: #fff;
-   text-align: left;
-   padding-left: 46px;
-   font-family:  Arial, Helvetica, sans-serif;
-}
-.text-box p {
-    margin: 10px 0px 40px;
-    font-size: 13px;
+
+.text-box h1 {
+    font-size: 35px;
     color: #fff;
     text-align: left;
-    padding-left: 46px;
+    padding-left: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
 }
-.button-group{
-    margin-left: 46px;
-    text-align: left ; 
-    
+
+.text-box p {
+    margin: 10px 0px 40px;
+    font-size: 14px;
+    color: #fff;
+    text-align: left;
+    padding-left: 150px;
+    margin: 15px 0px 40px;
+    line-height: 1.5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 0.4px;
 }
+
+.button-group {
+    margin-left: 150px;
+    text-align: left;
+
+}
+
 .button-group .btn-1 {
     display: inline-block;
     text-decoration: none;
@@ -93,10 +115,11 @@ header ul li a.active{
     background: transparent;
     position: relative;
     cursor: pointer;
-    border-radius: 10px; 
+    border-radius: 10px;
     margin: 10px 5px;
 }
-.button-group .btn-2{
+
+.button-group .btn-2 {
     display: inline-block;
     text-decoration: none;
     color: #fff;
@@ -106,18 +129,235 @@ header ul li a.active{
     background: transparent;
     position: relative;
     cursor: pointer;
-    border-radius: 10px; 
+    border-radius: 10px;
     margin: 10px 5px;
 }
-.button-group .btn-1:hover{
+
+.button-group .btn-1:hover {
     border: 2px solid #025f50;
     background-color: #025f50;
 }
-.button-group .btn-2:hover{
+
+.button-group .btn-2:hover {
     border: 2px solid #025f50;
     background-color: #025f50;
 }
 
+.section-second {
+    width: 100%;
+    height: 70vh;
+    /* position: absolute; */
+    border-bottom: 1px  solid rgb(61, 59, 59);
+}
+
+.section-second h1 {
+    font-size: 30px;
+    color: black;
+    text-align: left;
+    font-family: 'Castoro Titling';
+    padding-left: 170px;
+    margin: 40px 0px;
+}
+
+.section-second .left-side {
+    width: 50%;
+    font-size: 13px;
+    color: #000;
+    text-align: left;
+    padding-left: 150px;
+    line-height: 1.5;
+    font-family: 'coda' ;
+    letter-spacing: 0.4px;
+    float: left; 
+  
+}
+.section-second .left-side .icon {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    
+}
+.section-second .left-side .icon a{
+  
+   background-color: rgb(153, 141, 141);
+   color: #fff;
+   margin: 0px 1px;
+   padding: 10px;
+   font-size: 17px;
+}
+.section-second .left-side .icon a:hover{
+    background-color: rgb(179, 171, 171);
+}
+
+.section-second .right-side {
+    width: 50%;
+    font-size: 22px;
+    justify-content: end;
+    float: right;
+    font-family: 'Castoro Titling';
+    letter-spacing: 0.4px;
+    line-height: 1.5;
+}
+.section-second .right-side h3{
+    font-size: 20px;
+   text-transform: uppercase ;
+   font-family: 'Coda';
+}
+.section-second .right-side p{
+    font-size: 13px;
+
+}
 
 
+/*-------------------------------- section-3 css----------------------------------- */
+.section-third{
+    width: 100%;
+    height: 85vh;
+
+}
+.section-third h1{
+    font-size: 30px;
+    color: black;
+    text-align: left;
+    font-family: 'Castoro Titling';
+    padding-left: 170px;
+    margin: 40px 0px;
+    text-transform: uppercase;
+}
+.section-third .section-third-task {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 30px;
+    grid-column-gap: 10px;
+    padding-left:  150px ;
+    padding-right: 130px;
+}
+.section-third .section-third-task .third-1{
+    background-color: rgb(189, 188, 188);
+}
+.section-third .section-third-task .third-1 h4{
+    text-align: center; 
+    margin: 5px 0px;
+    font-size: 18px;
+    font-family: 'Castoro Titling';
+}
+.section-third .section-third-task .third-1  p{
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Castoro Titling';
+}
+
+.section-third .section-third-task .third-1:hover {
+background-color: #25383C;
+color: #fff;
+}
+.section-third .section-third-task .third-1 .image:hover{
+    background-color: rgb(0, 0, 0);
+}
+
+/*-------------------------------------- section-4 css----------------------------------- */
+.section-four{
+    width: 100%;
+    height: 120vh;
+    background-color: #25383C;
+}
+.section-four h1{
+    font-size: 30px;
+    color: black;
+    text-align: left;
+    font-family: 'Castoro Titling';
+    padding-left: 170px;
+    padding-top:  40px;
+} 
+.section-four .four-1{
+    margin-left: 150px;
+    margin-top: 40px;
+}
+.section-four .four-1 .img{
+    width: 360px;
+    height: 250px;
+    padding: 5px;
+}
+.button{
+    margin-left: 100px; 
+    margin-top: 20px;
+}
+
+.button .btn-1{
+    margin-left: 40%;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    border-radius: 10px;
+    align-items: center;
+}
+.button .btn-1:hover {
+    border: 2px solid #025f50;
+    background: #025f50;
+    transition: 1s;
+}
+.seaction-fifth{
+    width: 100%;
+    height: 130vh;
+}
+.seaction-fifth h1{
+    font-size: 30px;
+    color: black;
+    text-align: left;
+    font-family: 'Castoro Titling';
+    padding-left: 170px;
+    padding-top:  40px;
+}
+
+    .row-1{
+        margin-left: 150px;
+        margin-top: 5%;
+        display: flex;
+        justify-content: space-between;
+        margin-right: 100px;
+}
+.row-1 .col h3{
+    font-size: 20px;
+    text-transform: uppercase ;
+    font-family: 'Coda';
+    text-align: center;
+}
+.row-1 .col p{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.2;
+    font-family: 'coda';
+}
+.row-1 .col img{
+    margin-left:120px;
+    margin-bottom: 40px; 
+    padding: 15px;
+}
+.section-sixth{
+    width: 100%;
+    height: 100vh;
+    background-color: #25383C;
+}
+.section-sixth h1{
+    font-size: 30px;
+    color: black;
+    text-align: left;
+    font-family: 'Castoro Titling';
+    padding-left: 170px;
+    padding-top:  40px;
+}
+.section-sixth .feature-col{
+  
+   
+}
+.section-sixth .sixth img{
+   
+}
 
