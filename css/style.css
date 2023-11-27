@@ -14,7 +14,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #0C090A;
+    background-color: #1d2126;
 
 }
  h1{
@@ -55,8 +55,8 @@ header ul li a:hover {
 }
 
 header ul li a.active {
-    border: 2px solid #068b75;
-    color: #068b75;
+    border: 2px solid #20776d;
+    color: #20776d;
 
 }
 
@@ -106,40 +106,20 @@ header ul li a.active {
 
 }
 
-.button-group .btn-1 {
-    display: inline-block;
-    text-decoration: none;
-    color: #fff;
-    border: 2px solid #fff;
-    padding: 12px 34px;
-    font-size: 13px;
-    background: transparent;
-    position: relative;
-    cursor: pointer;
-    border-radius: 10px;
-    margin: 10px 5px;
-}
 
-.button-group .btn-2 {
-    display: inline-block;
-    text-decoration: none;
+
+.button-group .btn-1 {
     color: #fff;
     border: 2px solid #fff;
     padding: 12px 34px;
     font-size: 13px;
     background: transparent;
-    position: relative;
     cursor: pointer;
-    border-radius: 10px;
+    border-radius: 6px;
     margin: 10px 5px;
 }
 
 .button-group .btn-1:hover {
-    border: 2px solid #025f50;
-    background-color: #025f50;
-}
-
-.button-group .btn-2:hover {
     border: 2px solid #025f50;
     background-color: #025f50;
 }
@@ -178,7 +158,7 @@ header ul li a.active {
 
 .modest .left-side .icon a {
 
-    background-color: rgb(153, 141, 141);
+    background-color: #c8cdd0;
     color: #fff;
     margin: 0px 1px;
     padding: 10px;
@@ -473,7 +453,8 @@ header ul li a.active {
     margin-left: 170px;
 }
 
-.google-map .contact .contact-in p {
+.google-map
+ .contact .contact-in p {
     margin-top: 30px;
     text-align: center;
     font-size: 15px;
