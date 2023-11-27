@@ -5,17 +5,17 @@
     font-family: Anaheim;
 }
 
-header {
+header{
     position: relative;
     width: 100%;
-    height: 60px;
+    height: 70px;
     top: 0;
     left: 0;
+    padding: 30px 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #1d2126;
-
+    background-color: #1d2127;
 }
  h1{
 
@@ -54,39 +54,31 @@ header ul li a:hover {
     color: #fff;
 }
 
-header ul li a.active {
-    border: 2px solid #20776d;
-    color: #20776d;
-
+header ul li a.active{
+    border: 2px solid #068b75;
+    color: #068b75;
 }
 
 .banner {
     width: 100%;
     height: 70vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../images/pic.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0,0,0,0.5)), url(../images/pic.png);
     background-position: center;
     background-size: cover;
-    /* text-align: center; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .text-box {
     width: 100%;
     color: #fff;
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    margin-top: 50px;
-
 }
-
-.text-box h1 {
-    font-size: 35px;
-    color: #fff;
-    text-align: left;
-    padding-left: 150px;
-    font-weight: 300;
+ .text-box h1{
+   font-size: 30px;
+   color: #fff;
+   text-align: left;
+   font-family:  Arial, Helvetica, sans-serif;
 }
 
 .text-box p {
@@ -94,16 +86,9 @@ header ul li a.active {
     font-size: 14px;
     color: #fff;
     text-align: left;
-    padding-left: 150px;
-    margin: 15px 0px 40px;
-    line-height: 1.5;
-    letter-spacing: 0.4px;
 }
-
-.button-group {
-    margin-left: 150px;
+.button-group{
     text-align: left;
-
 }
 
 
