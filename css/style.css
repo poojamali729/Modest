@@ -1,8 +1,8 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:  Arial, Helvetica, sans-serif;
+    font-family: Anaheim;
 }
 
 header{
@@ -16,28 +16,40 @@ header{
     justify-content: space-between;
     align-items: center;
     background-color: #1d2127;
-    
 }
-header ul{
+ h1{
+
+
+ }
+ 
+.logo {
+    padding-left: 11%;
+}
+
+header ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-header ul li{
+
+header ul li {
     list-style: none;
     margin-left: 10px;
-    
+
 }
-header ul li a{
+
+header ul li a {
     text-decoration: none;
-    padding: 4px 8px;
+    padding: 4px 10px;
+    margin: auto;
     color: #fff;
-    border-radius: 10px;
+    border-radius: 7px;
     font-size: 12px;
     background: transparent;
-    
+
 }
-header ul li a:hover{
+
+header ul li a:hover {
     border: 1px solid #fff;
     color: #fff;
 }
@@ -46,7 +58,8 @@ header ul li a.active{
     border: 2px solid #068b75;
     color: #068b75;
 }
-.banner{
+
+.banner {
     width: 100%;
     height: 70vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0,0,0,0.5)), url(../images/pic.png);
@@ -56,8 +69,9 @@ header ul li a.active{
     justify-content: flex-end;
     align-items: center;
 }
+
 .text-box {
-    width: 90%;
+    width: 100%;
     color: #fff;
 }
  .text-box h1{
@@ -66,50 +80,434 @@ header ul li a.active{
    text-align: left;
    font-family:  Arial, Helvetica, sans-serif;
 }
+
 .text-box p {
     margin: 10px 0px 40px;
-    font-size: 13px;
+    font-size: 14px;
     color: #fff;
     text-align: left;
 }
 .button-group{
     text-align: left;
 }
+
+
+
 .button-group .btn-1 {
-    display: inline-block;
-    text-decoration: none;
     color: #fff;
     border: 2px solid #fff;
     padding: 12px 34px;
     font-size: 13px;
     background: transparent;
-    position: relative;
     cursor: pointer;
-    border-radius: 10px; 
+    border-radius: 6px;
     margin: 10px 5px;
 }
-.button-group .btn-2{
+
+.button-group .btn-1:hover {
+    border: 2px solid #025f50;
+    background-color: #025f50;
+}
+
+.modest {
+    width: 100%;
+    height: 65vh;
+    border-bottom: 1px solid rgb(61, 59, 59);
+}
+
+.modest h1 {
+    font-size: 30px;
+    color: black;
+    text-align: left;
+    padding-left: 170px;
+    margin: 40px 0px;
+}
+
+.modest .left-side {
+    width: 50%;
+    font-size: 15px;
+    color: #000;
+    text-align: left;
+    padding-left: 150px;
+    line-height: 1.5;
+    letter-spacing: 0.4px;
+    float: left;
+
+}
+
+.modest .left-side .icon {
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+}
+
+.modest .left-side .icon a {
+
+    background-color: #c8cdd0;
+    color: #fff;
+    margin: 0px 1px;
+    padding: 10px;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.modest .left-side .icon a:hover {
+    background-color: rgb(179, 171, 171);
+}
+
+.modest .right-side {
+    width: 50%;
+    justify-content: end;
+    float: right;
+    letter-spacing: 0.4px;
+    line-height: 1.5;
+}
+
+.modest .right-side h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Coda';
+}
+
+.modest .right-side p {
+    font-size: 15px;
+
+}
+
+
+/*-------------------------------- section-3 css----------------------------------- */
+.team {
+    width: 100%;
+    height: 85vh; 
+}
+
+.team h1 {
+    font-size: 30px;
+    color: black;
+    text-align: left;
+    padding-left: 170px;
+    margin: 40px 0px;
+    text-transform: uppercase;
+}
+
+.team .team-task{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 30px;
+    grid-column-gap: 10px;
+    padding-left: 155px;
+    padding-right: 280px;
+    
+}
+
+.team .team-task .team-mem .image{
+    width: 221px;
+    height: 210px;
+    
+}
+.team .team-task .team-mem{
+    background-color: rgb(189, 188, 188);
+}
+
+.team .team-task .team-mem h4{
+    text-align: center;
+    margin: 5px 0px;
+    font-size: 18px;
+}
+
+.team .team-task .team-mem p {
+    text-align: center;
+    font-size: 17px;
+}
+
+.team .team-task .team-mem:hover{
+    background-color: #25383C;
+    color: #fff;
+}
+
+.team .team-task .team-mem .image:hover{
+    background-color: rgb(0, 0, 0);
+}
+
+
+
+/*-------------------------------------- section-4 css----------------------------------- */
+.lovely-work {
+    width: 100%;
+    height: 100vh;
+    background-color: #25383C;
+}
+
+.lovely-work h1 {
+    font-size: 30px;
+    color: #fff;
+    text-align: left;
+    padding-left: 170px;
+    padding-top: 40px;
+}
+
+.lovely-work .work {
+    margin-left: 150px;
+    margin-top: 40px;
+}
+
+.lovely-work .work .img {
+    width: 300px;
+    height: 200px;
+    padding: 5px;
+}
+
+.button {
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.button .btn-1 {
+    margin-left: 32%;
+    text-align: center;
     display: inline-block;
     text-decoration: none;
     color: #fff;
-    border: 2px solid #fff;
+    border: 1px solid #fff;
     padding: 12px 34px;
     font-size: 13px;
     background: transparent;
     position: relative;
     cursor: pointer;
-    border-radius: 10px; 
-    margin: 10px 5px;
+    border-radius: 10px;
+    align-items: center;
 }
-.button-group .btn-1:hover{
+
+.button .btn-1:hover {
     border: 2px solid #025f50;
+    background: #025f50;
+    transition: 1s;
+}
+
+/*--------------------------- section-5 css------------------------------- */
+.service {
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 120px;
+}
+
+.service h1 {
+    font-size: 30px;
+    color: black;
+    text-align: left;
+    padding-left: 170px;
+    padding-top: 40px;
+}
+
+.icon-bar {
+    margin-left: 150px;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 170px;
+}
+
+.icon-bar .icons h3 {
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.icon-bar .icons p {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.2;
+}
+
+.icon-bar .icons img {
+    margin-left: 120px;
+    margin-bottom: 40px;
+    padding: 8px;
+}
+
+/* -------------------------------------sectin-6 css----------------------------------------- */
+.feature {
+    width: 100%;
+    height: 90vh;
+    margin: auto;
+    text-align: center;
+    background-color: #25383C;
+
+}
+
+.feature h1 {
+    font-size: 30px;
+    color: black;
+    text-align: left;
+    padding-left: 170px;
+    padding-top: 40px;
+    color: #fff;
+}
+
+.feature-img {
+    margin-left: 150px;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 150px;
+
+}
+
+
+
+.feature .post h3 {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Coda';
+    text-align: center;
+    margin-top: 25px;
+    text-align: left;
+    color: #fff;
+}
+
+.feature .post p {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #fff;
+}
+
+.feature.post img {
+    padding: 0px;
+    width: 330px;
+    height: 240px;
+}
+
+/*-------------------------------------- sectin-7 css------------------------------------ */
+
+.google-map{
+    width: 100%;
+    height: 80vh;
+
+
+}
+
+.google-map h1 {
+    font-size: 30px;
+    color: black;
+    padding: 40px 0px 30px 170px;
+
+}
+
+.google-map iframe {
+    width: 100%;
+    height: 60vh;
+}
+
+/*------------------------------------- contact-information------------------------------ */
+
+.google-map.contact {
+    width: 100%;
+    height: 40vh;
+
+}
+
+.google-map .contact .form {
+    width: 35%;
+    height: 58vh;
+    float: right;
+    position: relative;
+    margin-right: 150px;
+    padding: 40px;
+    margin-top: -150px;
+    background-color: #fff;
+    box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19);
+}
+
+.google-map .contact .contact-in {
+    width: 50%;
+    height: 50vh;
+
+}
+
+.google-map .contact .contact-in h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 40px;
+    text-align: left;
+    margin-left: 170px;
+}
+
+.google-map
+ .contact .contact-in p {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.4;
+    text-align: left;
+    margin-left: 160px;
+    letter-spacing: 0.3;
+}
+
+.field {
+    width: 100%;
+    border: 2px solid rgba(0, 0, 0, 0);
+    outline: none;
+    background-color: rgba(54, 54, 54, 0.1);
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+    transition: 3s;
+    font-size: 14px;
+}
+
+.field:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+    min-height: 90px;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    border: 2px solid #000;
+    padding: 12px 34px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 10px 20px 20px 110px;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    transition: 1s;
+    border: 2px solid #016958;
     background-color: #025f50;
 }
-.button-group .btn-2:hover{
-    border: 2px solid #025f50;
-    background-color: #025f50;
+
+.footer {
+    width: 100%;
+    height: 10vh;
+    background-color: #25383C;
+
 }
 
+.footer p {
+    margin-left: 160px;
+    font-size: 17px;
+    padding-top: 20px;
+    float: left;
+    color: #fff;
+    letter-spacing: 1px;
+}
 
-
-
+.footer .footer-img {
+    float: right;
+    margin-right: 180px;
+    margin-top: 20px;
+}
