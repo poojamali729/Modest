@@ -5,16 +5,12 @@
     font-family: Abode;
 }
 
-<<<<<<< HEAD
 :root {
     --primary-color: #1d2126;
     --secondary-color: #3a454d;
   }
 
 header {
-=======
-header{
->>>>>>> b024e5cb461e517f71f8162b88fce1225d0ab5e2
     position: relative;
     width: 100%;
     height: 70px;
@@ -24,22 +20,14 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-<<<<<<< HEAD
     background-color: var(--primary-color);
 
-=======
-    background-color: #1d2127;
->>>>>>> b024e5cb461e517f71f8162b88fce1225d0ab5e2
 }
  h1{
 
 
  }
  
-.logo {
-    padding-left: 11%;
-}
-
 header ul {
     display: flex;
     justify-content: space-between;
@@ -94,6 +82,7 @@ header ul li a.active{
    color: #fff;
    text-align: left;
    font-family:  Arial, Helvetica, sans-serif;
+   padding-left: 150px;
 }
 
 .text-box p {
@@ -101,17 +90,15 @@ header ul li a.active{
     font-size: 14px;
     color: #fff;
     text-align: left;
-<<<<<<< HEAD
     padding-left: 150px;
     margin: 15px 0px 40px;
     line-height: 1.5;
     letter-spacing: 0.4px;
     
-=======
->>>>>>> b024e5cb461e517f71f8162b88fce1225d0ab5e2
 }
 .button-group{
     text-align: left;
+    padding-left: 150px;
 }
 
 
