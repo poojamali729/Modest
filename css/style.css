@@ -392,7 +392,7 @@ header ul li a.active{
     background: transparent;
     position: relative;
     cursor: pointer;
-    border-radius: 10px;
+    border-radius: 6px;
     align-items: center;
 }
 
@@ -485,13 +485,14 @@ header ul li a.active{
 
 .icons div {
     margin-top: -10px;
+    padding: 0px 20px;
 }
 
 .icon-bar .icons p {
     margin-top: 15px;
     text-align: center;
     font-size: 15px;
-    line-height: 1.2;
+    line-height: 1.4;
     color: #999b9d;
 }
 
@@ -598,19 +599,19 @@ header ul li a.active{
 
 .google-map .contact .form {
     width: 35%;
-    height: 58vh;
     float: right;
     position: relative;
-    margin-right: 150px;
+    margin-right: 100px;
     padding: 40px;
-    margin-top: -66px;
+    margin-top: -120px;
     background-color: #fff;
     box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19);
+    height: 60vh;
 }
 
 .google-map .contact .contact-in {
-    width: 50%;
-    height: 50vh;
+    /* width: 50%;
+    height: 50vh; */
 
 }
 
@@ -644,10 +645,12 @@ header ul li a.active{
 .field {
     width: 100%;
     border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 2px;
     outline: none;
-    background-color: rgba(54, 54, 54, 0.1);
+    background-color: #eaeef1;
     padding: 0.5rem 1rem;
     font-size: 1.1rem;
+    color: silver;
     margin-bottom: 22px;
     transition: 3s;
     font-size: 14px;
@@ -657,54 +660,44 @@ header ul li a.active{
     background-color: rgba(0, 0, 0, 0.1);
 }
 
-textarea {
-    min-height: 90px;
+.form textarea {
+    /* min-height: 90px; */
+    height: 150px;
 }
 
 .btn {
-    display: inline-block;
-    text-decoration: none;
-    color: #000;
-    border: 2px solid #000;
+    border: none;
     padding: 12px 34px;
     font-size: 15px;
     background: transparent;
     position: relative;
     cursor: pointer;
-    border-radius: 10px;
-    margin: 10px 20px 20px 110px;
+    border-radius: 4px;
+    background-color: #23b7a4;
     text-transform: uppercase;
+    color: white;
 }
 
-.btn:hover {
-    transition: 1s;
-    border: 2px solid #23b7a4;
-    background-color: #23b7a4;
-}
 
 .footer {
     width: 100%;
-    height: 10vh;
+    height: 100px;
     background-color: #3a454d;
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 150px;
 }
 
 .footer p {
-    margin-left: 160px;
-    font-size: 17px;
-    padding-top: 20px;
-    float: left;
-    color: #fff;
-    letter-spacing: 1px;
-    font-weight: 300;
+    color: white;
 }
 
 
 
 .footer .footer-img {
-    float: right;
-    margin-right: 180px;
-    margin-top: 20px;
+    width: 140px;
+    height: 15px;
 }
 
 
